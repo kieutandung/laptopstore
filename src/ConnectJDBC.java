@@ -20,4 +20,9 @@ public class ConnectJDBC {
         }
         return connection;
     }
+
+    public static void main(String[] args) {
+        ConnectJDBC connectJDBC = new ConnectJDBC();
+        connectJDBC.connect();
+    }
 }
